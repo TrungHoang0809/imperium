@@ -1,0 +1,375 @@
+/* Large devices (large desktops, 1200px and up) xl */
+@media (max-width: 1399px) and (min-width: 1200px) {
+    :root {
+        --side-width: calc((100% - 1140px) / 2);
+    }
+
+    .line {
+        position: absolute;
+        width: 85px;
+        border: 1px solid white;
+        top: 53%;
+        left: 26%;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 1199px) and (min-width: 992px) {
+    :root {
+        --side-width: calc((100% - 960px) / 2);
+    }
+
+    .header-menu {
+        position: absolute;
+        left: -100px;
+    }
+
+    /* .dynamic-circle::before {
+        display: none;
+    } */
+
+    @keyframes sonarEffect_3 {
+        0% {
+            filter: alpha(opacity=30);
+            opacity: 0.2;
+        }
+
+        40% {
+            filter: alpha(opacity=50);
+            opacity: 0.4;
+        }
+
+        100% {
+            -o-transform: scale(2.3);
+            -webkit-transform: scale(2.3);
+            -ms-transform: scale(2.3);
+            transform: scale(2.3);
+            filter: alpha(opacity=0);
+            opacity: 0;
+        }
+    }
+
+    .line {
+        position: absolute;
+        width: 85px;
+        border: 1px solid white;
+        top: 53%;
+        left: 21%;
+    }
+
+    .list-info .item-info {
+        word-break: break-all;
+        /* width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis */
+    }
+
+    .main-img {
+        right: -30px;
+    }
+
+    .main-img img {
+        width: 90%;
+    }
+
+    .sub-img-left {
+        width: 12rem;
+        height: 12rem;
+        left: -190px;
+        bottom: -30px;
+    }
+
+    .sub-img-right {
+        width: 13.5rem;
+        height: 13.5rem;
+    }
+
+    .service .service-content {
+        height: 43.5rem;
+        position: relative;
+        margin-top: 22.5rem;
+    }
+
+    .service-item .item-img {
+        height: 22.5rem;
+    }
+
+    .advisory-header .advisory-project {
+        left: 425px;
+        top: 12.5rem;
+    }
+
+    .advisory-header .advisory-phone {
+        margin-top: 50px;
+    }
+
+    .advisory .advisory-form {
+        height: 38rem;
+        padding-top: 6rem;
+
+    }
+
+    .list-info .item-info {
+        margin-bottom: 0.8rem;
+    }
+
+    .position-map {
+        height: 425px;
+    }
+
+    .rounded-div {
+        height: 50%;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media(max-width: 991px) and (min-width: 768px) {
+    :root {
+        --side-width: calc((100% - 720px) / 2);
+    }
+
+    .p-7 {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .header-menu {
+        left: -90px;
+    }
+
+    .header-center {
+        position: relative;
+        left: 80px;
+        width: 410px;
+    }
+
+
+    .line {
+        position: absolute;
+        width: 40px;
+        border: 1px solid white;
+        top: 53%;
+        left: 28.8%;
+    }
+
+    /* general */
+    .rounded-div {
+        height: 50%;
+    }
+
+    ul.list-info {
+        padding-right: 30px;
+    }
+
+    .list-info .item-info {
+        margin-bottom: 10px;
+    }
+
+    .main-img {
+        top: -70px;
+        right: 55px;
+    }
+
+    .main-img img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .sub-img {
+        bottom: 157px;
+        right: 20px;
+    }
+
+    .sub-img .sub-img-left {
+        width: 11.5rem;
+        height: 11.5rem;
+        left: -140px;
+    }
+
+    .sub-img .sub-img-right {
+        width: 12.5rem;
+        height: 12.5rem;
+    }
+
+    /* position  */
+    .position-map {
+        height: 37.5rem;
+    }
+
+    .position-overlay {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* service */
+    .service {
+        height: 100rem;
+    }
+
+    .service-header {
+        text-align: center;
+    }
+
+    .service-desc {
+        top: 4.5rem;
+        left: 30rem;
+    }
+
+    .service .circle {
+        top: 175px;
+        left: 0;
+    }
+
+    .service-item .item-img {
+        height: 18rem;
+        margin-bottom: 3rem;
+    }
+
+    .service .service-content {
+        height: 35.5rem;
+    }
+
+    .service-item .item-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
+
+    /* place */
+    .place {
+        height: 116rem;
+    }
+
+    .place-header {
+        text-align: center;
+    }
+
+    .place .place-project {
+        position: absolute;
+        z-index: 2;
+        right: 175px;
+        top: 130px;
+    }
+
+    .place .circle-1 {
+        left: 45px;
+    }
+
+    .place .circle-2 {
+        position: absolute;
+        top: 33px;
+        left: 138px;
+    }
+
+    .place .circle {
+        position: absolute;
+        top: 152px;
+        left: 416px;
+    }
+
+    .place .circle-wrap .triangle {
+        top: 70px;
+        left: 65%;
+    }
+
+    .advisory-header .advisory-phone {
+        margin-top: 40px;
+    }
+
+    .place .place-main-img img {
+        height: 28rem;
+    }
+
+    .place .item-sub-img img {
+        height: 7rem;
+    }
+
+    /* advisory */
+    .advisory-header .advisory-project {
+        top: 12.5rem;
+        left: 30.5rem;
+    }
+
+    .advisory .advisory-form {
+        border-radius: 22rem;
+        padding: 6rem 6rem;
+        height: 39rem;
+    }
+
+    .advisory-form label {
+        margin-bottom: 8px;
+    }
+
+
+    /* footer */
+    .list-contact .item-contact {
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 182px;
+    }
+
+    .arrow-top {
+        right: 9px;
+    }
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) and (min-width: 576px) {
+    :root {
+        --side-width: calc((100% - 540px) / 2);
+    }
+
+    .position-overlay {
+        width: 600px;
+        height: 600px;
+    }
+
+    .advisory-header .advisory-project {
+        position: absolute;
+        top: 11.5rem;
+        left: 22.5rem;
+    }
+}
+
+@media (max-width: 575px) {}
+
+@media (max-width : 426px) {
+    html{
+        font-size: 30%;
+    }
+
+    .main {
+        overflow-x: hidden;
+    }
+    .p-sm-0{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .position-overlay,
+    .place .place-overlay {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .service .service-content {
+        max-width: 100%;
+    }
+
+    .place .circle {
+        left: 300px;
+    }
+
+    .place .circle-1 {
+        left: 230px;
+    }
+
+    .general-desc {
+        left: 15rem;
+    }
+}

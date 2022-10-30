@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         rel="stylesheet"
@@ -21,54 +22,55 @@
     <header class="header">
         <div class="container top-layer">
             <div class="row">
-                <div class="header-content">
-                    <div class="header-top">
-                        <div class="header-logo">
-                            <img src="./img/logo.png" alt="">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="header-content">
+                        <div class="header-top">
+                            <div class="header-logo">
+                                <img src="./img/logo.png" alt="">
+                            </div>
+                            <div class="header-hotline">
+                                0935 542 260
+                            </div>
                         </div>
-                        <div class="header-hotline">
-                            0935 542 260
+                        <div class="header-body">
+                            <ul class="header-menu">
+                                <li class="menu-item">
+                                    <img src="./img/item-1.jpg" alt="">
+                                    Tổng quan
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./img/item-2.jpg" alt="">
+                                    Vị trí
+                                </li>
+                                <li class="menu-item active">
+                                    <img src="./img/item-3.jpg" alt="">
+                                    Nhà mẫu
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./img/item-4.jpg" alt="">
+                                    Mặt bằng
+                                </li>
+                                <li class="menu-item">
+                                    <img src="./img/item-5.jpg" alt="">
+                                    Tiện ích
+                                </li>
+                            </ul>
+                            <div class="header-center">
+                                <h1 class="heading">Nhà Mẫu</h1>
+                                <h2 class="title">Imperium Town</h2>
+                                <h2 class="location">Nha Trang</h2>
+                            </div>
+
+                            <div class="next-btns">
+                                <ion-icon class="next" name="arrow-back-outline"></ion-icon>
+                                <ion-icon class="prev" name="arrow-forward-outline"></ion-icon>
+                            </div>
+
+                            <div class="line">
+
+                            </div>
                         </div>
                     </div>
-                    <div class="header-body">
-                        <ul class="header-menu">
-                            <li class="menu-item">
-                                <img src="./img/item-1.jpg" alt="">
-                                Tổng quan
-                            </li>
-                            <li class="menu-item">
-                                <img src="./img/item-2.jpg" alt="">
-                                Vị trí
-                            </li>
-                            <li class="menu-item">
-                                <img src="./img/item-3.jpg" alt="">
-                                Nhà mẫu
-                            </li>
-                            <li class="menu-item">
-                                <img src="./img/item-4.jpg" alt="">
-                                Mặt bằng
-                            </li>
-                            <li class="menu-item">
-                                <img src="./img/item-5.jpg" alt="">
-                                Tiện ích
-                            </li>
-                        </ul>
-                        <div class="header-center">
-                            <h1 class="heading">Nhà Mẫu</h1>
-                            <h2 class="title">Imperium Town</h2>
-                            <h2 class="location">Nha Trang</h2>
-                        </div>
-
-                        <div class="next-btns">
-                            <ion-icon name="arrow-back-outline"></ion-icon>
-                            <ion-icon name="arrow-forward-outline"></ion-icon>
-                        </div>
-
-                        <div class="line">
-                            
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -78,14 +80,18 @@
 
     <div class="main">
         <section class="general">
-            <div class="circle">
-                <div class="main-circle">
-                    &nbsp;
+            <div class="circle-wrap">
+                <div class="circle">
+                    <div class="white-grad"></div>
+                </div>
+                <div class="circle-1">
+                    <div class="white-grad"></div>
                 </div>
             </div>
             <div class="container ">
                 <div class="row">
-                    <div class="col-xxl-12 general-header">
+                    <div
+                        class="col-xxl-12 col-xl-12 col-lg-12  col-md-12 col-sm-12 col-12 general-header">
                         <h2 class="general-heading font-heading">Tổng Quan</h2>
                         <h3 class="general-desc font-desc">Dự án</h3>
                     </div>
@@ -93,8 +99,8 @@
             </div>
             <div class="general-content rounded-div">
                 <div class="general-container">
-                    <div class="row">
-                        <div class="col-xxl-6">
+                    <div class="row gx-0">
+                        <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-8 col-sm-7 col-7">
                             <div class="general-info">
                                 <ul class="list-info">
                                     <li class="item-info">Tên chính thức dự án: Khu phức hợp căn hộ
@@ -132,7 +138,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xxl-6">
+                        <div class="col-xxl-6 col-xl-6 col-lg-5 col-md-4 col-sm-5 col-5">
                             <div class="general-img">
                                 <div class="main-img">
                                     <img src="./img/tong-quan-house.png" alt="">
@@ -154,9 +160,24 @@
         </section>
 
         <section class="position">
+            <div class="position-overlay"></div>
+            <div class="circle-wrap">
+                <div class="circle">
+                    <div class="white-grad"></div>
+                </div>
+                <div class="circle-1">
+                    <div class="white-grad"></div>
+                </div>
+                <div class="circle-2">
+                    <div class="white-grad"></div>
+                </div>
+                <div class="triangle">
+
+                </div>
+            </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-xxl-12">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col 12">
                         <div class="position-header font-">
                             <h2 class="position-heading font-heading">VỊ TRÍ</h2>
                             <h3 class="font-desc position-project">Dự án</h3>
@@ -188,7 +209,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xxl-12">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12  ">
                         <div class="position-map">
                         </div>
                     </div>
@@ -197,9 +218,18 @@
         </section>
 
         <section class="service">
+            <div class="circle-wrap">
+                <div class="circle">
+                    <div class="white-grad"></div>
+                </div>
+                <div class="circle-1">
+                    <div class="white-grad"></div>
+                </div>
+                <div class="service-overlay"></div>
+            </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-xxl-12">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="service-header">
                             <h2 class="service-heading font-heading">TIỆN ÍCH</h2>
                             <h3 class="service-desc font-desc">Dự án</h3>
@@ -210,7 +240,8 @@
             <div class="service-content rounded-div">
                 <div class="container list-service">
                     <div class="row gx-5">
-                        <div class="col-xxl-4 service-item">
+                        <div
+                            class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 service-item p-7">
                             <div class="item-content">
                                 <img src="./img/service-item-1.jpg" alt="Service Image"
                                     class="item-img">
@@ -222,7 +253,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-xxl-4 service-item">
+                        <div
+                            class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 service-item p-7">
                             <div class="item-content">
                                 <img src="./img/service-item-2.jpg" alt="Service Image"
                                     class="item-img">
@@ -236,7 +268,8 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-xxl-4 service-item">
+                        <div
+                            class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 service-item p-7">
                             <div class="item-content">
                                 <img src="./img/service-item-3.jpg" alt="Service Image"
                                     class="item-img">
@@ -258,9 +291,28 @@
 
 
         <section class="place">
+            <div class="circle-wrap">
+                <div class="circle">
+                    <div class="white-grad"></div>
+                </div>
+                <div class="circle-1">
+                    <div class="white-grad"></div>
+                </div>
+                <div class="circle-2">
+                    <div class="white-grad"></div>
+                </div>
+                <div class="circle-3">
+                    <div class="white-grad"></div>
+                </div>
+                <div class="place-overlay"></div>
+                <div class="triangle"></div>
+                <div class="triangle-1"></div>
+                <div class="triangle-2"></div>
+                <div class="triangle-3"></div>
+            </div>
             <div class="container place-top">
                 <div class="row">
-                    <div class="col-xxl-12">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="place-header">
                             <h2 class="place-heading font-heading">Mặt Bằng</h2>
                             <h3 class="font-desc place-project">Dự án</h3>
@@ -270,7 +322,7 @@
             </div>
             <div class="container place-content">
                 <div class="row gx-5">
-                    <div class="col-xxl-6">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
                         <h4 class="list-place-header">
                             Mặt Bằng
                         </h4>
@@ -279,22 +331,26 @@
                         </div>
                         <div class="list-sub-img">
                             <div class="row">
-                                <div class="col-xxl-3 item-sub-img">
+                                <div
+                                    class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 item-sub-img">
                                     <img src="./img/sub-img-1.jpg" alt="Mặt bằng">
                                 </div>
-                                <div class="col-xxl-3 item-sub-img">
+                                <div
+                                    class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 item-sub-img">
                                     <img src="./img/sub-img-2.jpg" alt="Mặt bằng">
                                 </div>
-                                <div class="col-xxl-3 item-sub-img">
+                                <div
+                                    class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 item-sub-img">
                                     <img src="./img/sub-img-3.jpg" alt="Mặt bằng">
                                 </div>
-                                <div class="col-xxl-3 item-sub-img">
+                                <div
+                                    class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 item-sub-img">
                                     <img src="./img/sub-img-4.jpg" alt="Mặt bằng">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-6">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6  col-md-6 col-sm-6 col-6">
                         <h4 class="list-place-header">
                             Mặt Bằng
                         </h4>
@@ -303,16 +359,20 @@
                         </div>
                         <div class="list-sub-img">
                             <div class="row">
-                                <div class="col-xxl-3 item-sub-img">
+                                <div
+                                    class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 item-sub-img">
                                     <img src="./img/sub-img-5.jpg" alt="Mặt bằng">
                                 </div>
-                                <div class="col-xxl-3 item-sub-img">
+                                <div
+                                    class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 item-sub-img">
                                     <img src="./img/sub-img-6.jpg" alt="Mặt bằng">
                                 </div>
-                                <div class="col-xxl-3 item-sub-img">
+                                <div
+                                    class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 item-sub-img">
                                     <img src="./img/sub-img-1.jpg" alt="Mặt bằng">
                                 </div>
-                                <div class="col-xxl-3 item-sub-img">
+                                <div
+                                    class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 item-sub-img">
                                     <img src="./img/sub-img-3.jpg" alt="Mặt bằng">
                                 </div>
                             </div>
@@ -323,9 +383,18 @@
         </section>
 
         <section class="advisory">
+            <div class="circle-wrap">
+                <div class="circle">
+                    <div class="white-grad"></div>
+                </div>
+                <div class="circle-1">
+                    <div class="white-grad"></div>
+                </div>
+                <div class="triangle"></div>
+            </div>
             <div class="container advisory-header">
                 <div class="row">
-                    <div class="col-xxl-12">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12">
                         <h2 class="advisory-heading font-heading">Tư Vấn</h2>
                         <h3 class="font-desc advisory-project">Dự án</h3>
                         <h4 class="advisory-phone">0935 542 260</h4>
@@ -335,31 +404,58 @@
 
             <div class="container advisory-content">
                 <div class="row">
-                    <div class="col-xxl-12">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12">
                         <div class="advisory-form">
-                            <form action="#" class="contact">
+                            <form action="" method="post" class="form-contact">
                                 <div class="row gx-5">
-                                    <div class="col-xxl-6">
-                                        <input type="text" placeholder="Họ và Tên *">
-                                        <input type="text" placeholder="Điện Thoại *">
+                                    <div
+                                        class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text" rules="name_required|min:5"
+                                                name="fullname" placeholder="Họ và Tên *">
+                                            <span class="form-message"></span>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="text" rules="phone_required|phone"
+                                                name="phone_number" placeholder="Điện Thoại *">
+                                            <span class="form-message"></span>
+                                        </div>
+
                                     </div>
-                                    <div class="col-xxl-6">
-                                        <input type="text" placeholder="Email *">
-                                        <input type="text" placeholder="Địa Chỉ *">
+                                    <div
+                                        class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <input type="text"
+                                                rules="email_required|email|ext-email" name="email"
+                                                placeholder="Email *">
+                                            <span class="form-message"></span>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="text" rules="address_required|min:5"
+                                                name="address" placeholder="Địa Chỉ *">
+                                            <span class="form-message"></span>
+                                        </div>
+
+
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row mt-10">
                                     <div class="col-xxl-12">
-                                        <input name="test" type="radio" value="test">
-                                        <label for="">
-                                            Tư Vấn Chi Tiết Dự Án căn hộ Imperium Nha Trang
+                                        <label class="radio">
+                                            <input name="radio" type="radio" checked>
+                                            <span>Tư Vấn Chi Tiết Dự Án căn hộ Imperium Nha
+                                                Trang</span>
                                         </label>
                                     </div>
 
                                     <div class="col-xxl-12">
-                                        <input name="test" type="radio" value="test" checked>
-                                        <label for="">Tham Khảo Pháp Lý và Thông Tin căn hộ Imperium
-                                            Nha Trang</label>
+                                        <label class="radio">
+                                            <input name="radio" type="radio" checked>
+                                            <span>Tham Khảo Pháp Lý và Thông Tin căn hộ Imperium Nha
+                                                Trang</span>
+                                        </label>
                                     </div>
                                 </div>
                                 <button class="submit-btn">
@@ -377,7 +473,7 @@
         <div class="footer-wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-xxl-12">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="logo">
                             <img src="./img/logo-footer.png" alt="Logo">
                         </div>
@@ -386,19 +482,19 @@
                         <ul class="list-contact">
                             <l1 class="item-contact">
                                 <i class="fa-solid fa-location-dot"></i>
-                                02 Đồng Nai - Phước Hải - Nha Trang
+                                <p>02 Đồng Nai - Phước Hải - Nha Trang</p>
                             </l1>
                             <l1 class="item-contact">
                                 <i class="fa-solid fa-envelope-open-text"></i>
-                                02 Đồng Nai - Phước Hải - Nha Trang
+                                <p>Putademo@gmail.com</p>
                             </l1>
                             <l1 class="item-contact">
                                 <i class="fa-solid fa-globe"></i>
-                                02 Đồng Nai - Phước Hải - Nha Trang
+                                <p>www.putatheme.com</p>
                             </l1>
                         </ul>
                     </div>
-                    <div class="col-xxl-12">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <p class="copyright">
                             © Copyright 2022 Imperium Town. Designed by PutaTheme
                         </p>
@@ -420,9 +516,65 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
     <script type="module"
         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="./validation.js"></script>
+    <script>
+        Validator(".form-contact",);
+    </script>
+
+    <script>
+        var menuItems = document.querySelectorAll(".menu-item");
+        function getPosition(element) {
+            let itemStyle = getComputedStyle(element);
+            var transformItemStyle = itemStyle.transform;
+            var propertyArr = transformItemStyle.split(',');
+            var x = propertyArr[4];
+            var y = propertyArr[5].split(")")[0];
+
+            var dataPosition = [];
+            dataPosition["x"] = x;
+            dataPosition["y"] = y;
+
+            return dataPosition;
+        }
+
+        menuItems.forEach(function (item, i) {
+            item.onclick = function () {
+                var activeItem = document.querySelector(".menu-item.active");
+                var activeItemPosition = getPosition(activeItem);
+                var xActive = activeItemPosition['x'];
+                var yActive = activeItemPosition['y'];
+
+                var itemPosition = getPosition(item);
+                var xItem = itemPosition['x'];
+                var yItem = itemPosition['y'];
+
+                TweenMax.to(activeItem, 1, { transform: `matrix(1, 0, 0, 1, ${xItem}, ${yItem})` });
+                activeItem.classList.remove("active");
+
+                TweenMax.to(item, 1, { transform: `matrix(1, 0, 0, 1, ${xActive}, ${yActive})` });
+                item.classList.add("active");
+                document.querySelector(".header-menu .menu-item.active img").style.transition = "all linear .4s";
+
+                var heading = document.querySelector(".header-center .heading");
+
+                heading.style.opacity = "0";
+                heading.style.transition = "opacity 1s";
+
+                setTimeout(() => {
+                    heading.style.opacity = "1";
+                    heading.innerText = document.querySelector(".menu-item.active").innerText;
+                }, 800);
+
+
+            }
+        })
+    </script>
 
 </body>
 
