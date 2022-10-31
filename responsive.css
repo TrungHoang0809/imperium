@@ -626,7 +626,15 @@
         font-size: 3.3rem;
         color: White;
         text-align: center;
-        margin-bottom: 6rem;
+        margin-bottom: 3rem;
+    }
+
+    .place .place-main-img {
+        margin-bottom: 20px;
+    }   
+
+    .mb-30 {
+        margin-bottom: 30px;
     }
 
     /* service */
@@ -669,6 +677,10 @@
 
 
     /* place */
+    .place {
+        height: 215rem;
+    }
+
     .place .circle {
         left: 80px;
         top: -45px;
@@ -703,6 +715,19 @@
     .place .circle-3 .white-grad {
         --b: 1.7rem;
         width: 10rem;
+    }
+
+    .place .place-main-img {
+        padding: 0 20px;
+    }
+
+    .place .item-sub-img img {
+        width: 18rem;
+        height: 12rem;
+    }
+
+    .place .place-main-img img {
+        height: 45rem;
     }
 
     .general-desc {
@@ -774,10 +799,15 @@
     }
 
     .advisory-form input[type='radio']+span::after {
-        width: 6px;
-        height: 6px;
-        top: 2px;
-        left: 1.9px;
+        width: 2rem;
+        height: 2rem;
+        top: 3px;
+        left: 2px;
+    }
+
+    .advisory-form input[type='radio']+span::before {
+        width: 3rem;
+        height: 3rem;
     }
 
     .advisory-form .form-group {
