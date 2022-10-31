@@ -854,6 +854,8 @@ ul.list-info {
     width: 100%;
     height: 110rem;
     background-image: url(/img/service-bc.jpg);
+    background-size: cover;
+    background-position: center center;
     position: relative;
 }
 
@@ -987,6 +989,14 @@ ul.list-info {
 }
 
 .service-item {}
+
+.service-item .item-content {
+    padding: 0 2.4rem;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 190px !important;
+}
 
 .service-item .item-img {
     border-radius: 2.5rem;
