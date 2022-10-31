@@ -382,6 +382,10 @@
         font-size: 30%;
     }
 
+    .main {
+        overflow: unset;
+    }
+
     .header-top {
         margin-bottom: 4rem;
     }
@@ -468,16 +472,69 @@
         height: 1rem;
     }
 
-    .main {
-        overflow-x: hidden;
-    }
-
     /* general */
     :root {
         --side-width: 10px;
     }
-    .general-img {
+
+    .general {
+        height: 90.5rem;
+    }
+
+    .general .circle-1 {
+        position: absolute;
+        top: -30px;
+        right: 9px;
+    }
+
+    .general .circle-1 .white-grad {
+        width: 10rem;
+        --b: 1.5rem;
+    }
+
+    .general .circle {
+        position: absolute;
+        top: 110px;
+        right: 60px;
+        z-index: 2;
+        opacity: .4;
+    }
+
+    .general .circle .white-grad{
+        --b: 1.3rem;
+        color: #313149;
+        display: inline-block;
+        margin: 10px;
+        width: 6rem;
+        aspect-ratio: 1;
+        position: relative;
+        z-index: 0;
+    }
+
+    .general-container {
+        padding-left: 20px;
+    }
+
+    .general-img .main-img{
         display: none;
+    }
+
+    .general-img .sub-img {
+        bottom: 100px;
+        right: 20px;
+    }
+
+    .general-img .sub-img-left {
+        width: 10rem;
+        height: 10rem;
+        left: -60px;
+        bottom: -35px;
+    }
+
+    .general-img .sub-img-right {
+        width: 12rem;
+        height: 12rem;
+
     }
 
     .general-info {
@@ -489,18 +546,63 @@
     }
 
     .rounded-div {
-        height: 58%;
+        height: 54%;
     }
 
     .p-sm-0 {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+    /* position */
 
     .position-overlay,
     .place .place-overlay {
-        max-width: 300px;
-        max-height: 300px;
+        max-width: 50rem;
+        max-height: 50rem;
+    }
+
+    .position-overlay {
+        top: 230px;
+        left: 30px;
+    }
+
+    .position .circle-1 .white-grad {
+        --b: 1.8rem;
+        width: 12rem;
+    }
+
+    .position .circle-1 {
+        left: 35px;
+    }
+
+    .position .circle {
+        position: absolute;
+        top: 69px;
+        right: 32px;
+        z-index: 2;
+        opacity: .4;
+    }
+
+    .position .circle-wrap .triangle {
+        clip-path: polygon(100% 0, 0 26%, 100% 100%);
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+        top: 199px;
+        left: 46%;
+        background-image: linear-gradient(to bottom, #4fd2d4, transparent);
+        z-index: 2;
+        opacity: .6;
+    }
+
+    .position .circle .white-grad {
+        --b: 1.2rem;
+        width: 6rem;
+    }
+
+    .position-map {
+        height: 52.5rem;   
+        background-size: cover;
     }
 
     .service .service-content {
