@@ -498,8 +498,8 @@ html {
     top: 110px;
     right: 0;
     background-image: radial-gradient(circle, #1d9da9, transparent 71%);
-    width: 800px;
-    height: 800px;
+    width: 80rem;
+    height: 80rem;
     z-index: 2;
 }
 
@@ -525,12 +525,12 @@ html {
 
 .general .circle .white-grad,
 .general .circle-1 .white-grad {
-    --b: 15px;
+    --b: 1.5rem;
     /* border width*/
     color: #313149;
     display: inline-block;
     margin: 10px;
-    width: 90px;
+    width: 9rem;
     aspect-ratio: 1;
     position: relative;
     z-index: 0;
@@ -564,8 +564,8 @@ html {
 }
 
 .general .circle-1 .white-grad {
-    width: 200px;
-    --b: 30px;
+    width: 20rem;
+    --b: 3rem;
 }
 
 .general .circle-1 .white-grad:before {
@@ -683,8 +683,8 @@ ul.list-info {
     top: 110px;
     left: 0;
     background-image: radial-gradient(circle, #1d9da9, transparent 71%);
-    width: 800px;
-    height: 800px;
+    width: 80rem;
+    height: 80rem;
     z-index: 2;
 }
 
@@ -708,12 +708,12 @@ ul.list-info {
 .position .circle .white-grad,
 .position .circle-1 .white-grad,
 .position .circle-2 .white-grad {
-    --b: 15px;
+    --b: 1.5rem;
     /* border width*/
     color: #313149;
     display: inline-block;
-    margin: 10px;
-    width: 90px;
+    margin: 1rem;
+    width: 9rem;
     aspect-ratio: 1;
     position: relative;
     z-index: 0;
@@ -741,7 +741,7 @@ ul.list-info {
 
 
 .position .circle-1 .white-grad {
-    --b: 18px;
+    --b: 1.8rem;
     width: 120px;
 }
 
@@ -758,7 +758,7 @@ ul.list-info {
 }
 
 .position .circle-2 .white-grad {
-    --b: 11px;
+    --b: 1.1rem;
     width: 60px;
 }
 
@@ -895,8 +895,8 @@ ul.list-info {
     top: 110px;
     right: 12px;
     background-image: radial-gradient(circle, #2e949e, transparent 71%);
-    width: 700px;
-    height: 700px;
+    width: 70rem;
+    height: 70rem;
     z-index: 2;
 }
 
@@ -919,12 +919,12 @@ ul.list-info {
 
 .service .circle .white-grad,
 .service .circle-1 .white-grad {
-    --b: 15px;
+    --b: 1.5rem;
     /* border width*/
     color: #313149;
     display: inline-block;
     margin: 10px;
-    width: 90px;
+    width: 9rem;
     aspect-ratio: 1;
     position: relative;
     z-index: 0;
@@ -951,8 +951,8 @@ ul.list-info {
 
 
 .service .circle-1 .white-grad {
-    --b: 18px;
-    width: 120px;
+    --b: 1.8rem;
+    width: 12rem;
 }
 
 .service .circle-1 .white-grad:before {
@@ -1040,8 +1040,7 @@ ul.list-info {
     top: 110px;
     left: -70px;
     background-image: radial-gradient(#06646d 2%, transparent 71%);
-    width: 700px;
-    height: 700px;
+    width: 70rem;
     z-index: 2;
 }
 
@@ -1082,12 +1081,12 @@ ul.list-info {
 .place .circle-1 .white-grad,
 .place .circle-2 .white-grad,
 .place .circle-3 .white-grad {
-    --b: 15px;
+    --b: 1.5rem;
     /* border width*/
     color: #313149;
     display: inline-block;
-    margin: 10px;
-    width: 90px;
+    margin: 1rem;
+    width: 9rem;
     aspect-ratio: 1;
     position: relative;
     z-index: 0;
@@ -1115,8 +1114,8 @@ ul.list-info {
 }
 
 .place .circle .white-grad {
-    --b: 8px;
-    width: 40px;
+    --b: .8rem;
+    width: 4rem;
 }
 
 .place .circle .white-grad:before {
@@ -1124,13 +1123,13 @@ ul.list-info {
 }
 
 .place .circle-1 .white-grad {
-    --b: 18px;
-    width: 120px;
+    --b: 1.8rem;
+    width: 12rem;
 }
 
 .place .circle-3 .white-grad {
-    --b: 22px;
-    width: 140px;
+    --b: 2.2rem;
+    width: 14rem;
 }
 
 .place .circle-1 .white-grad:before {
@@ -1147,8 +1146,8 @@ ul.list-info {
 
 .place .circle-wrap .triangle {
     clip-path: polygon(100% 0, 0 26%, 100% 100%);
-    width: 40px;
-    height: 40px;
+    width: 4rem;
+    height: 4rem;
     position: absolute;
     top: 0px;
     left: 40%;
@@ -1160,8 +1159,8 @@ ul.list-info {
 
 .place .circle-wrap .triangle-1 {
     clip-path: polygon(100% 27%, 0 0, 0 100%);
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
     position: absolute;
     top: 130px;
     right: 99px;
@@ -1172,8 +1171,8 @@ ul.list-info {
 
 .place .circle-wrap .triangle-2 {
     clip-path: polygon(100% 0, 0 26%, 100% 100%);
-    width: 40px;
-    height: 40px;
+    width: 4rem;
+    height: 4rem;
     position: absolute;
     bottom: 400px;
     left: 5%;
@@ -1184,8 +1183,8 @@ ul.list-info {
 
 .place .circle-wrap .triangle-3 {
     clip-path: polygon(100% 69%, 0 0, 0 100%);
-    width: 60px;
-    height: 60px;
+    width: 6rem;
+    height: 6rem;
     position: absolute;
     bottom: 440px;
     left: 20%;
@@ -1277,12 +1276,12 @@ ul.list-info {
 
 .advisory .circle .white-grad,
 .advisory .circle-1 .white-grad {
-    --b: 9px;
+    --b: .9rem;
     /* border width*/
     color: #313149;
     display: inline-block;
-    margin: 10px;
-    width: 50px;
+    margin: 1rem;
+    width: 5rem;
     aspect-ratio: 1;
     position: relative;
     z-index: 0;
@@ -1308,8 +1307,8 @@ ul.list-info {
 }
 
 .advisory .circle .white-grad {
-    --b: 18px;
-    width: 120px;
+    --b: 1.8rem;
+    width: 12rem;
 }
 
 .advisory .circle .white-grad:before {
@@ -1318,8 +1317,8 @@ ul.list-info {
 
 .advisory .circle-wrap .triangle {
     clip-path: polygon(100% 18%, 0 0, 0 94%);
-    width: 60px;
-    height: 60px;
+    width: 6rem;
+    height: 6rem;
     position: absolute;
     top: 50px;
     right: 25px;
